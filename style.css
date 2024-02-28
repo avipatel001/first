@@ -262,6 +262,45 @@
 }
 
 .service-tool-content {
-  box-shadow: 0px 3px 5px black;
+  box-shadow: 0px 1px 3px black;
   padding: 10px 15px;
+}
+
+.service-tool-content h3 {
+  margin-top: 20px;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.service-tool-content span {
+  display: block;
+  margin-top: 20px;
+  color: #01a3d6;
+  font-size: 18px;
+}
+
+.service-tool-content p {
+  margin-top: 10px;
+}
+
+.service-btn {
+  width: fit-content;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 11px 30px;
+  background: none;
+  outline: none;
+  border: 1px solid rgb(252, 191, 73);
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+
+.service-btn:hover {
+  background-color: rgb(252, 191, 73);
+}
+
+.btn-ser {
+  padding: 10px 40px;
+  font-size: 15px;
+  font-weight: 500;
 }
