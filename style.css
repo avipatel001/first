@@ -308,7 +308,7 @@
 .experience-part {
   display: flex;
   margin: 100px 0px;
-  padding: 100px 100px;
+  padding: 100px 50px;
   gap: 100px;
   box-shadow: inset 1px 1px 5px black;
 }
@@ -402,6 +402,24 @@
   background-color: rgb(252, 191, 73);
   border-radius: 50px;
   position: absolute;
-  right: 75px;
+  right: 25px;
   z-index: 999;
+}
+
+.projects h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px;
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.project-imgs {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 0px 100px;
+  position: relative;
 }
