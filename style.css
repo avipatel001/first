@@ -458,6 +458,5 @@
 }
 
 .img:hover .shuter-img {
-  /* transform: scale(1); */
   transform: scaleX(1) scaleY(1);
 }
