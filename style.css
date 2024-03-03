@@ -572,9 +572,12 @@
   font-weight: 500;
   text-transform: capitalize;
 }
-
+.partners-slide img {
+  padding: 5px;
+}
 .partners-slide img:hover {
-  box-shadow: 1px 1px 5px black, inset 0px 0px 2px black;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px black, inset 1px 1px 5px black;
 }
 
 .contant-department {
